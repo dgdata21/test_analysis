@@ -3,7 +3,7 @@ from operator import attrgetter
 
 # import
 
-df = pd.read_csv('/home/john/pCloudDrive/Python/Python_windows/project1/user_log.csv')
+df = pd.read_csv('user_log.csv')
 df['date'] = pd.to_datetime(df['date'])
 
 df_cohort_visit = df[df['event_type'] == 'visit'][['uid', 'date']].drop_duplicates()
