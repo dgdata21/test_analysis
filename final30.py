@@ -23,8 +23,8 @@ warnings.filterwarnings('ignore')
 
 
 def connect():
-    connection = ps2.connect(dbname='skillfactory', user='skillfactory',
-                             host='84.201.134.129', password='cCkxxLVrDE8EbvjueeMedPKt')
+    connection = ps2.connect(dbname='xxxxxxxx', user='xxxxxxxxxxx',
+                             host='xxx.xxx.xxx.xxx', password='xxxxxxxxxxxxxxxx')
     return connection
 
 
